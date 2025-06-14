@@ -77,31 +77,7 @@ All commands are run from the root of the project, from a terminal:
 - [TailwindCSS](https://tailwindcss.com/ "TailwindCSS")
 - [daisyUI](https://daisyui.com/ "daisyUI")
 
-## Use and editing of content
 
-All content is in Markdown files classified in directories in `/src/pages`
-
-![alt text](https://github.com/mmouzo/astro-cv-esquelete/blob/main/public/snap-md.png?raw=true)
-
-To edit the content simply add, delete or modify the .md files.
-
-### Adding or Removing a field
-
-**Add a new field:**
-
-Go to `Container.astro` in` src/components/`.
-
-To add a new field, add a new `<AccordionLayout />` component with the appropriate properties and the corresponding child component.
-
-**Remove an existing field:**
-
-To remove an existing field, simply comment out the `<AccordionLayout />` component of that particular field or delete it.
-
-![alt text](https://github.com/mmouzo/astro-cv-esquelete/blob/main/public/snap-items.png?raw=true)
-
-## Demo
-
-[astro-cv-esquelete](https://astro-cv-esquelete.vercel.app/ "astro-cv-esquelete")
 
  ![alt text](https://github.com/mmouzo/astro-cv-esquelete/blob/main/public/snap_project.webp?raw=true)
 
