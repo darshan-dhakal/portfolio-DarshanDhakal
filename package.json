@@ -1,7 +1,19 @@
 {
   "name": "astro-cv-esquelete",
-  "type": "module",
   "version": "0.0.1",
+  "description": "Astro-CV-Esquelete is a free, easy-to-use CV template with a clean design. Just fill in your details and you're ready to go!",
+  "homepage": "https://github.com/mmouzo/astro-cv-esquelete#readme",
+  "bugs": {
+    "url": "https://github.com/mmouzo/astro-cv-esquelete/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmouzo/astro-cv-esquelete.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -15,7 +27,7 @@
     "@fontsource-variable/dm-sans": "^5.0.5",
     "@iconify-json/carbon": "^1.1.31",
     "@iconify-json/mdi": "^1.1.64",
-    "astro": "^4.5.14",
+    "astro": "^4.16.18",
     "astro-compress": "^2.2.21",
     "astro-icon": "^1.1.0",
     "framer-motion": "^11.0.7",

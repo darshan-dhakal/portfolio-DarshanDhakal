@@ -1,6 +1,7 @@
 ---
 import { Icon } from "astro-icon/components";
 import AccordionLayout from "../layouts/AccordionLayout.astro";
+import AccordionLayoutAbout from "../layouts/AccordionLayoutAbout.astro"
 import * as about from "../pages/about/about.md";
 import Card from "./Card.astro";
 import ContactCard from "./ContactCard.astro";
@@ -8,19 +9,19 @@ const works = await Astro.glob("../pages/works/*.md");
 const projects = await Astro.glob("../pages/projects/*.md");
 const studies = await Astro.glob("../pages/studies/*.md");
 const certificates = await Astro.glob("../pages/certificates/*.md");
-const blogs = await Astro.glob("../pages/blogs/*.md");
 const contact = await Astro.glob("../pages/contact/*.md");
 const PDF = "/cv-20240219.pdf";
 ---
 
 <div class="join join-vertical gap-1">
-  <AccordionLayout title={"About"} icon={"carbon:identification"}>
+  <AccordionLayoutAbout title={"About"} icon={"carbon:identification"}>
     <article class="text-justify">
       <Fragment set:html={about.compiledContent()} />
     </article>
-  </AccordionLayout>
-
-  <AccordionLayout title={"Work"} icon={"carbon:construction"}>
+  </AccordionLayoutAbout>
+  
+<!--Work Here -->
+  <!-- <AccordionLayout title={"Work"} icon={"carbon:construction"}>
     {
       works.map((item) => {
         return (
@@ -36,7 +37,7 @@ const PDF = "/cv-20240219.pdf";
         );
       })
     }
-  </AccordionLayout>
+  </AccordionLayout> -->
 
   <AccordionLayout title={"Studies"} icon={"carbon:education"}>
     {
@@ -72,7 +73,8 @@ const PDF = "/cv-20240219.pdf";
     }
   </AccordionLayout>
 
-  <AccordionLayout title={"Certifications"} icon={"carbon:certificate"}>
+<!-- Certificates Here -->
+  <!-- <AccordionLayout title={"Certifications"} icon={"carbon:certificate"}>
     {
       certificates.map((item) => {
         return (
@@ -87,23 +89,7 @@ const PDF = "/cv-20240219.pdf";
         );
       })
     }
-  </AccordionLayout>
-
-  <AccordionLayout title={"Blogs"} icon={"carbon:pen"}>
-    {
-      blogs.map((item) => {
-        return (
-          <Card
-            title={item.frontmatter.title}
-            timeframe={item.frontmatter.date}
-            description={item.compiledContent()}
-            url={item.frontmatter.url}
-            url_name={item.frontmatter.url_name}
-          />
-        );
-      })
-    }
-  </AccordionLayout>
+  </AccordionLayout> -->
 
   <AccordionLayout title={"Files"} icon={"carbon:volume-file-storage"}>
     <div class="flex justify-center w-full">

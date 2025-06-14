@@ -1,15 +1,8 @@
 ---
-title: Bachelor of Science in Criminal Justice
-location: University of California, Los Angeles (UCLA)
-url: http://foeberoz.gm/kuj
-institute: University of California
-date: 1970-1975
-tags:
-  [
-    "Criminal Justice",
-    "Law Enforcement",
-    "Legal Studies",
-    "Public Safety",
-    "Court System",
-  ]
+title: Bachelor of Science in Computer Science and Information Technology (BSc. CSIT)
+location: Dharan, Nepal
+url: https://cct.tu.edu.np/
+institute: Central Campus of Technology
+date: 2021-2025(running)
+tags: ["Computer Science", ""]
 ---

@@ -1,10 +1,10 @@
 ---
 title: about
-name: "Cezar Kelso"
-designation: "Senior Detective"
-location: Los Angeles, CA 90001
-pronouns: "he/him/el"
+name: "Darshan Dhakal"
+designation: "Web Developer"
+location: Inaruwa, Sunsari, Nepal
+pronouns: "he/him"
 website: "http://tafutza.hn/kos"
 ---
 
-Highly skilled and experienced law enforcement professional with over two decades of service in various specialized units. Adept at conducting complex investigations, coordinating tactical operations, and providing leadership in high-pressure situations. Known for exceptional problem-solving abilities, strategic thinking, and dedication to upholding the law. Seeking opportunities to leverage expertise in a challenging environment where I can continue to make a meaningful impact.
+I’m a dedicated BSc CSIT student who has built my expertise by focusing on backend development. My passion for crafting efficient, scalable systems has driven me to deepen my understanding of core technologies and frameworks. Alongside this, I’m exploring AI/ML, experimenting with models and intelligent features to enhance web applications. Hardworking and eager to apply my skills, I’m actively seeking an internship where I can gain hands-on experience, contribute to impactful projects, and refine my abilities in backend development and AI integration.

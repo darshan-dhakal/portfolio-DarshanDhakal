@@ -1,5 +1,5 @@
 ---
-title: Email
+title: imdarshandhakal@gmail.com
 icon: carbon:email
-url: mailto:juz@hoper.ph
+url: imdarshandhakal@gmail.com
 ---
