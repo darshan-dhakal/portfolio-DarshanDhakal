@@ -76,11 +76,3 @@ All commands are run from the root of the project, from a terminal:
 
 - [TailwindCSS](https://tailwindcss.com/ "TailwindCSS")
 - [daisyUI](https://daisyui.com/ "daisyUI")
-
-
-
- ![alt text](https://github.com/mmouzo/astro-cv-esquelete/blob/main/public/snap_project.webp?raw=true)
-
-## Acknowledgments
-
-I want to thank [@USKhokhar](https://github.com/USKhokhar "@USKhokhar") who did [Astro-Vitae](https://github.com/USKhokhar/astro-vitae "Astro-Vitae") that served as the basis for this project.
