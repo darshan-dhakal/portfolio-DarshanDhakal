@@ -1,5 +1,5 @@
 ---
-title: imdarshandhakal@gmail.com
+title: darshan.dhakal77@gmail.com
 icon: carbon:email
-url: imdarshandhakal@gmail.com
+url: mailto:darshan.dhakal77@gmail.com
 ---
